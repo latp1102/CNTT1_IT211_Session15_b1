@@ -5,5 +5,4 @@ mà chưa kiểm tra vai trò của người dùng
 Do chưa có cấu hình
 .requestMatchers("/admin/**").hasRole("ADMIN")
 nên sau khi đăng nhập thành công, mọi tài khoản đều có thể truy cập /admin/orders,
-kể cả user có role USER.
-Đây là lỗ hổng phân quyền do thiếu kiểm tra role ADMIN cho các đường dẫn quản trị.
+kể cả user có role USER
